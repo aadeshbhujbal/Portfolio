@@ -51,7 +51,7 @@ export default function Home() {
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="/Aadesh'sResume.pdf"
                   target={"_blank"}
                   className="flex items-center rounded-lg border-2 border-solid border-transparent
                   bg-dark p-2.5 px-6 text-lg font-semibold text-light
@@ -64,7 +64,7 @@ export default function Home() {
                   Resume <LinkArrow className={"ml-1 w-6 3xl:w-8"} />
                 </Link>
                 <Link
-                  href="mailto:abcd@gmail.com"
+                  href="mailto:aadeshbhujbal1@gmail.com"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light 3xl:text-2xl md:text-base"
                 >
@@ -77,7 +77,7 @@ export default function Home() {
 
         <HireMe />
         <div className="absolute bottom-8 right-8 inline-block w-24 md:hidden">
-          <Image src={lightBulb} alt="Codebucks" className="h-auto w-full" />
+          <Image src={lightBulb} alt="Aadesh" className="h-auto w-full" />
         </div>
       </main>
     </>

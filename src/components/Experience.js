@@ -61,7 +61,7 @@ const Experience = () => {
             position="Frontend Developer"
             company="Dataspace Security "
             companyLink="https://dataspacesecurity.com/"
-            time="2023-Present"
+            time="2024-Present"
             address="Sector V, Kolkota, West Bengal"
             work="
             As a Frontend Developer, my role is to bring the visual and interactive aspects of websites and web applications to life. I specialize in creating engaging user interfaces and seamless user experiences by utilizing my skills. I work closely with UX/UI designers to translate their mockups and wireframes into functional and visually appealing interfaces."

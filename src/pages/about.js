@@ -61,7 +61,7 @@ const about = () => {
               <p className="font-medium text-dark dark:text-light  3xl:text-xl">
                 Hi, I&apos;m Aadesh, a web developer with a passion for creating
                 beautiful, functional, and user-centered digital experiences.
-                With 2 years of experience in the field. I am always looking for
+                With 3 years of experience in the field. I am always looking for
                 new and innovative ways to bring my clients&apos; visions to
                 life.
               </p>
@@ -125,7 +125,7 @@ bg-light p-12 dark:border-light dark:bg-dark 2xl:!p-6 xl:col-span-4 md:order-1 m
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold text-dark dark:text-light 3xl:text-7xl 2xl:text-6xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={2} />+
+                  <AnimatedNumbers value={3} />+
                 </span>
                 <h2
                   className="text-lg font-medium capitalize text-dark/75 dark:text-light/75 3xl:text-xl xl:text-center md:text-lg sm:text-base
