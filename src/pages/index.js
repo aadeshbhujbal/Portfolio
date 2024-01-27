@@ -13,7 +13,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs</title>
+        <title>Aadesh Portfolio</title>
+        <meta property="og:title" content="Aadesh's Portfolio" key="title" />
         <meta
           name="description"
           content="Explore Aadesh's Next.js developer portfolio and 
