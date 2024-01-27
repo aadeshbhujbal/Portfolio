@@ -7,7 +7,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { useReportWebVitals } from "next/web-vitals";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
+import { Analytics } from "@vercel/analytics/react";
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-mont",
@@ -45,6 +45,7 @@ export default function App({ Component, pageProps }) {
         <NavBar />
         <AnimatePresence initial={false} mode="wait">
           <SpeedInsights />
+          <Analytics />
           <Component key={router.asPath} {...pageProps} />
         </AnimatePresence>
         <Footer />
