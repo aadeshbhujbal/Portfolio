@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 export default function App({ Component, pageProps }) {
   useReportWebVitals((metric) => {
     const body = JSON.stringify(metric);
-    const url = "https://example.com/analytics";
+    const url = "https://aadeshbhujbal.online/analytics";
 
     // Use `navigator.sendBeacon()` if available, falling back to `fetch()`.
     if (navigator.sendBeacon) {
@@ -24,13 +24,6 @@ export default function App({ Component, pageProps }) {
     } else {
       fetch(url, { body, method: "POST", keepalive: true });
     }
-    window.gtag("event", metric.name, {
-      value: Math.round(
-        metric.name === "CLS" ? metric.value * 1000 : metric.value
-      ), // values must be integers
-      event_label: metric.id, // id unique to current page load
-      non_interaction: true, // avoids affecting bounce rate.
-    });
   });
   const router = useRouter();
   return (

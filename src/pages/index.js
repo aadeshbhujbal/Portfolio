@@ -17,7 +17,7 @@ export default function Home() {
         <meta property="og:title" content="Aadesh's Portfolio" key="title" />
         <meta
           name="description"
-          content="Explore Aadesh's Next.js developer portfolio and 
+          content="Explore Aadesh's portfolio and 
         discover the latest webapp projects and software engineering articles. 
         Showcase your skills as a full-stack developer and software engineer."
         />
